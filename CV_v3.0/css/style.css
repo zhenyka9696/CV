@@ -1,0 +1,41 @@
+.card {
+  margin: 10px;
+  width: 60%;
+  box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.24);
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+}
+.container {
+  display: flex;
+  height: 120vh;
+  width: 100%;
+  font-size: 20px;
+  justify-content: start;
+  padding: 4px;
+}
+.sidebar {
+  width: 30%;
+  border-radius: 0 70px 0 0;
+}
+.main {
+  width: 60%;
+  padding: 12px;
+}
+.face {
+  width: 150px;
+  height: 150px;
+  margin: 16px;
+}
+.email,
+.tel,
+.geo {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 400px;
+  margin: 0 0.5em 0.5em 0.5em;
+}
+.edu-content {
+  margin-left: 20px;
+}
